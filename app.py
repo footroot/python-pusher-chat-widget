@@ -9,11 +9,11 @@ app.config['CORS_HEADERS'] = 'Content-Type'
 
 
 pusher = pusher_client = pusher.Pusher(
-  app_id='PUSHER_APP_ID',
-  key='PUSHER_APP_KEY',
-  secret='PUSHER_APP_SECRET',
-  cluster='PUSHER_APP_CLUSTER',
-  ssl=True
+	app_id = "624864",
+	key = "ffdb039a440ec6d2d490",
+	secret = "767d2c1c373530d4762e",
+	cluster = "eu",
+  	ssl=True
 )
 
 @app.route('/')
